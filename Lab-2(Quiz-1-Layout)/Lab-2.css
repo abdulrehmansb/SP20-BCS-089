@@ -1,0 +1,58 @@
+#hmenu li {
+  list-style: none;
+  display: inline;
+  padding: 2%;
+  margin-left: 4%;
+}
+
+#hmenu a {
+  text-decoration: none;
+}
+
+#hmenu {
+  border-style: solid;
+}
+
+#logo {
+  float: left;
+  width: 4%;
+}
+
+#content {
+  border-style: solid;
+  background-color: grey;
+  text-align: center;
+  border-top-color: #44d62c;
+  margin-top: 0%;
+}
+
+#footer {
+  border-style: solid;
+  margin-top: 0.5%;
+}
+
+#cover {
+  width: 40%;
+}
+
+#llfooter {
+  margin-top: 0.25%;
+  border-style: solid;
+  float: left;
+  width: 49.5%;
+}
+
+#lrfooter {
+  margin-top: 0.25%;
+  border-style: solid;
+  float: right;
+  width: 49.5%;
+}
+
+#llimage {
+  width: 70%;
+}
+
+#lrimage {
+  width: 70%;
+}
