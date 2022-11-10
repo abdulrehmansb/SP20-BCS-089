@@ -1,0 +1,36 @@
+<h2><%= pageTitle %></h2>
+<a href="/teachers/add" class="btn btn-info">Add New Teacher</a>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Department</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% for( let index = 0; index < teachers.length; index++ ) { %>
+    <tr>
+      <td><%=teachers[index].name %></td>
+      <td><%=teachers[index].age %></td>
+      <td><%=teachers[index].department %></td>
+      <td>
+        <a
+          href="/teachers/edit/<%=teachers[index]._id  %>"
+          class="btn btn-warning btn-sm"
+          >Edit</a
+        >
+      </td>
+      <td>
+        <a
+          href="/teachers/delete/<%=teachers[index]._id  %>"
+          class="btn btn-danger btn-sm"
+          >Delete</a
+        >
+      </td>
+    </tr>
+    <% } %>
+  </tbody>
+</table>

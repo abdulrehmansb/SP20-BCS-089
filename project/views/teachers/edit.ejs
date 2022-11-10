@@ -1,0 +1,30 @@
+<form action="" method="POST" class="container">
+  <div class="mb-3">
+    <label for="" class="form-label">Name</label>
+    <input
+      type="text"
+      class="form-control"
+      value="<%= teacher.name %>"
+      name="name"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Age</label>
+    <input
+      type="text"
+      class="form-control"
+      name="age"
+      value="<%= teacher.age %>"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Department</label>
+    <input
+      type="text"
+      class="form-control"
+      name="department"
+      value="<%= teacher.department %>"
+    />
+  </div>
+  <button class="btn btn-info" type="submit">Edit New Teacher</button>
+</form>

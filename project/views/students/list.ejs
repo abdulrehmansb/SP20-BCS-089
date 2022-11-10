@@ -1,0 +1,38 @@
+<h2><%= pageTitle %></h2>
+<a href="/students/add" class="btn btn-info">Add New Student</a>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Major</th>
+      <th>Total Credit Hours</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% for( let index = 0; index < students.length; index++ ) { %>
+    <tr>
+      <td><%=students[index].name %></td>
+      <td><%=students[index].age %></td>
+      <td><%=students[index].major %></td>
+      <td><%=students[index].totalCreditHours %></td>
+      <td>
+        <a
+          href="/students/edit/<%=students[index]._id  %>"
+          class="btn btn-warning btn-sm"
+          >Edit</a
+        >
+      </td>
+      <td>
+        <a
+          href="/students/delete/<%=students[index]._id  %>"
+          class="btn btn-danger btn-sm"
+          >Delete</a
+        >
+      </td>
+    </tr>
+    <% } %>
+  </tbody>
+</table>
