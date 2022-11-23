@@ -1,0 +1,38 @@
+#lowernavbar {
+  background-color: white !important;
+}
+
+#idred {
+  background-color: #e1261c !important;
+}
+
+#idblue {
+  background-color: #0a2040 !important;
+  margin-left: -0.5%;
+  padding-right: 50% !important;
+}
+
+h6 {
+  color: white !important;
+}
+#lowerbanner {
+  width: 100%;
+}
+
+#bootstrap {
+  padding-left: 40% !important;
+}
+
+h5 {
+  font-size: 150%;
+}
+
+#firstdiv {
+  border-width: 1% !important;
+  border-color: black !important;
+}
+
+p {
+  font-size: 20 !important;
+  font-weight: bolder !important;
+}

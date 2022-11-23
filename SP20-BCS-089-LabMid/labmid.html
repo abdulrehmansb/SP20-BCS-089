@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="labmid.js"></script>
+    <link rel="stylesheet" href="labmid.css" />
+  </head>
+  <body>
+    <div class="d-flex p-2 justify-content-between">
+      <p class="text-start">Implemented through bootstrap</p>
+      <p class="text-start">Implemented only onClick</p>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="firstlist" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">MOVIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >CRICKET</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">INDIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >SHOWSHA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >POLITICS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">WORLD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >EDUCATION</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >BUSINESS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">BUZZ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >OPINION</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">PHOTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">VIDEOS</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <nav id="lowernavbar" class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul id="secondlist" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Latest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FIFA World Cup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Big Boss 16</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pro Kabaddi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explainers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lifestyle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Web Stories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tech</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Auto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">#SustainableIsAttainable</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Virtual Real Estate Fair</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="bootstrap" class="d-flex p-2 bd-highlight">
+      <h5>BOOTSTRAP (Ad Space)</h5>
+    </div>
+
+    <div class="flex">
+      <div id="idred" class="d-inline-flex p-2 bd-highlight rounded">
+        <h6>'MIRACLES' OF SHADANI DARBAR</h6>
+      </div>
+      <div id="idblue" class="d-inline-flex p-2 bd-highlight rounded">
+        <h6>History explained</h6>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between">
+      <div id="firstdiv" class="container">
+        <h4>My name is dumbo from 1 div</h4>
+        <img src="/images/news.png" alt="" />
+      </div>
+      <div id="seconddiv" class="container">
+        <h4>My name is genius from 2 div</h4>
+        <img src="/images/news.png" alt="" />
+      </div>
+      <div id="thirddiv" class="container">
+        <h4>My name is genius from 3 div</h4>
+        <img src="/images/news.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
